@@ -151,14 +151,3 @@ N8N_SMTP_PASS=123455
 N8N_SMTP_SENDER=Seu Nome <seu_email@gmail.com>
 N8N_SMTP_SSL=true
 ```
-## Comandos para deploy
-
-```
-n8n start
-```
-```
-n8n webhook
-```
-```
-n8n worker --concurrency=10
-```
