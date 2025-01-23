@@ -139,7 +139,7 @@ N8N_SMTP_SSL=true
 
 ## Comandos para deploy
 
-```json
+```
 n8n start
 
 n8n webhook
