@@ -98,7 +98,7 @@
           "replicas": 1,
           "command": "n8n worker --concurrency=10",
           "zeroDowntime": true
-        }
+        },
         
         "mounts": []
       }
