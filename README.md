@@ -28,6 +28,11 @@
           }
         ],
         "env": "N8N_ENCRYPTION_KEY=qwSYwLlijZOh+FaBHrK0tfGzxG6W/J4O",
+         "deploy": {
+                  "replicas": 1,
+                  "command": "n8n start",
+                  "zeroDowntime": true
+        },
         "mounts": []
       }
     }
@@ -56,6 +61,11 @@
           }
         ],
         "env": "N8N_ENCRYPTION_KEY=qwSYwLlijZOh+FaBHrK0tfGzxG6W/J4O",
+         "deploy": {
+          "replicas": 1,
+          "command": "n8n webhook",
+          "zeroDowntime": true
+        },
         "mounts": []
       }
     }
@@ -84,6 +94,12 @@
           }
         ],
         "env": "N8N_ENCRYPTION_KEY=qwSYwLlijZOh+FaBHrK0tfGzxG6W/J4O",
+         "deploy": {
+          "replicas": 1,
+          "command": "n8n worker --concurrency=10",
+          "zeroDowntime": true
+        }
+        
         "mounts": []
       }
     }
