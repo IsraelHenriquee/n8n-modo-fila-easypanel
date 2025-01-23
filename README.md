@@ -93,21 +93,21 @@
 
 ### Variáveis de ambiente
 
-Alter as credencais do Postgres e Redis.
-
+Alterar as credencais do Postgres e Redis.
+```
 ### Você pode criar a sua própria Encryption Key
 N8N_ENCRYPTION_KEY = qwSYwLlijZOh+FaBHrK0tfGzxG6W/J4O
 
 ### Banco de Dados - Coloque suas credenciais ###
 DB_TYPE=postgresdb
 DB_POSTGRESDB_DATABASE=database
-DB_POSTGRESDB_HOST=projeto_1_postgres
+DB_POSTGRESDB_HOST=n8n_postgres
 DB_POSTGRESDB_PORT=5432
 DB_POSTGRESDB_USER=postgres
 DB_POSTGRESDB_PASSWORD=d5a2837c7e6ef4ed245a
 
 ### Redis - Configurações ###
-QUEUE_BULL_REDIS_HOST=projeto_1_redis
+QUEUE_BULL_REDIS_HOST=n8n_redis
 QUEUE_BULL_REDIS_PORT=6379
 QUEUE_BULL_REDIS_DB=2
 QUEUE_BULL_REDIS_USER=default
@@ -134,13 +134,15 @@ N8N_SMTP_USER=seu_email@gmail.com
 N8N_SMTP_PASS=123455
 N8N_SMTP_SENDER=Seu Nome <seu_email@gmail.com>
 N8N_SMTP_SSL=true
-
+```
 ## Comandos para deploy
 
-```json
+```
 n8n start
-
+```
+```
 n8n webhook
-
+```
+```
 n8n worker --concurrency=10
 ```
