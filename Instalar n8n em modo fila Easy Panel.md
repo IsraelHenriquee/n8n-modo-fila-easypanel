@@ -93,6 +93,7 @@
 
 ### Variáveis de ambiente
 
+```
 Alter as credencais do Postgres e Redis.
 
 ### Você pode criar a sua própria Encryption Key
@@ -134,6 +135,7 @@ N8N_SMTP_USER=seu_email@gmail.com
 N8N_SMTP_PASS=123455
 N8N_SMTP_SENDER=Seu Nome <seu_email@gmail.com>
 N8N_SMTP_SSL=true
+```
 
 ## Comandos para deploy
 
