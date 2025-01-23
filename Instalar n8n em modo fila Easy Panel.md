@@ -95,7 +95,6 @@
 
 Alter as credencais do Postgres e Redis.
 
-```json
 ### Você pode criar a sua própria Encryption Key
 N8N_ENCRYPTION_KEY = qwSYwLlijZOh+FaBHrK0tfGzxG6W/J4O
 
@@ -135,8 +134,6 @@ N8N_SMTP_USER=seu_email@gmail.com
 N8N_SMTP_PASS=123455
 N8N_SMTP_SENDER=Seu Nome <seu_email@gmail.com>
 N8N_SMTP_SSL=true
-
-```
 
 ## Comandos para deploy
 
